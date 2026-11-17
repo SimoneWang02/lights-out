@@ -1,0 +1,28 @@
+# NYU Dataproc. Set data_root to your own HDFS home before running.
+# Values under `analysis` and `nyc` must stay identical to local.yaml so results are comparable.
+env: dataproc
+data_root: "hdfs:///user/CHANGE_ME_NETID/lightsout"
+
+spark:
+  master: null           # taken from spark-submit / the cluster default
+  driver_memory: null
+  shuffle_partitions: 200
+  hive: true
+  database: lightsout_CHANGE_ME_NETID
+
+analysis:
+  start_date: "2020-01-01"
+  h3_resolution: 10
+  ring: 1
+  cap_days: 90
+  fixed_window_nights: 7
+  twilight_buffer_min: 30
+  event_window: 28
+  train_end: "2024-12-31"
+  label_nights: 7
+
+nyc:
+  lat: 40.7128
+  lon: -74.0060
+  tz: America/New_York
+  bbox: [40.47, -74.27, 40.93, -73.68]

@@ -1,0 +1,11 @@
+{
+  "test_complaints": 57343.0,
+  "crashes_in_window": 740.0,
+  "complaints_with_crash": 724.0,
+  "score_top10": 0.28783783783783784,
+  "arrival_top10": 0.09594594594594595,
+  "score_top20": 0.4945945945945946,
+  "arrival_top20": 0.19864864864864865,
+  "score_top50": 0.822972972972973,
+  "arrival_top50": 0.5148648648648648
+}

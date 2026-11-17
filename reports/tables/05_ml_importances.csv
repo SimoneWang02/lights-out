@@ -1,0 +1,31 @@
+feature,importance
+day_all_365,0.21391593639643405
+night_hours,0.12756754234671266
+night_all_365,0.11389393186796111
+hour,0.1031432869048939
+complaints_365,0.08890382737942153
+night_ped_365,0.07757380163792704
+day_ped_365,0.06770264536374278
+month_sin,0.04896977209944685
+month_cos,0.03208814845147378
+borough_vec_MANHATTAN,0.02344875069246424
+address_type_vec_ADDRESS,0.014420503099067256
+borough_vec_QUEENS,0.012383210858094759
+descriptor_vec_Lamppost Missing,0.009032017170044062
+descriptor_vec_Lamppost Knocked Down,0.0077763374163976285
+address_type_vec_BLOCKFACE,0.007366750015079013
+is_weekend,0.006740253066778382
+borough_vec_BRONX,0.006694281363843641
+borough_vec_BROOKLYN,0.005500282791663925
+descriptor_vec_Street Light Out,0.0047425159933628
+borough_vec_STATEN ISLAND,0.004496034935029258
+descriptor_vec_Flood Light Lamp Out,0.003709865368441077
+descriptor_vec_Street Light Lamp Missing,0.0037088260709966024
+descriptor_vec_Multiple Street Lights Out,0.0036765800736894842
+descriptor_vec_Street Light Cycling,0.0027550099064917242
+address_type_vec_PLACENAME,0.002516485180228854
+descriptor_vec_Street Light Lamp Dim,0.0024634677621031506
+address_type_vec_INTERSECTION,0.0021683711648838653
+descriptor_vec_Fixture/Luminaire Missing,0.0014966149382142275
+borough_vec_UNSPECIFIED,0.0007616889012754917
+descriptor_vec_Flood Light Lamp Cycling,0.00038326078383681144
